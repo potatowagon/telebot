@@ -6,6 +6,7 @@ try:
     import pyautogui
 except ModuleNotFoundError as e:
     cmd = ['pip', 'install', 'pyautogui']
+    subprocess.call(cmd)
     import pyautogui
 
 
