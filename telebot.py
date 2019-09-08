@@ -6,6 +6,7 @@ try:
     import pyautogui
 except ModuleNotFoundError as e:
     cmd = ['pip', 'install', 'pyautogui']
+    import pyautogui
 
 
 def launch_tele():
